@@ -1,0 +1,11 @@
+.myInput {
+  background-color: transparent;
+  padding: 4px 3px;
+  border: 2px solid cadetblue;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Montserrat';
+  color: grey;
+  letter-spacing: 2px;
+}
