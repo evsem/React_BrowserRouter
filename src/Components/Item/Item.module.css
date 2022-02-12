@@ -1,5 +1,6 @@
 .wrapper {
   padding: 10px;
+  margin: 10px 0px;
   background-color: transparent;
   border: 2px solid grey;
   border-radius: 4px;
@@ -12,31 +13,28 @@
 .infoContainer {
   font-family: 'Montserrat';
   text-align: left;
+  color: black;
 }
 
 .infoContainer_title {
   font-size: 26px;
   font-weight: 500;
-  color: black;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .infoContainer_infoAboutPosts {
   font-size: 20px;
   font-weight: 400;
-  color: grey;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .infoContainer_infoAboutCreatorPosts {
   font-size: 18px;
-  font-weight: 300;
-  color: lightgrey;
-  text-decoration: line-through;
+  font-weight: 400;
+  color: grey;
   transition: all 0.2s linear;
 }
 .infoContainer_infoAboutCreatorPosts:hover {
-  text-decoration: none;
-  color: black;
+  opacity: 0;
 }
